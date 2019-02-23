@@ -55,7 +55,7 @@ int main(void)
 					videoMemorySub[x + y * 256] = ARGB16(1, 31, 0, 0);					
 				}
 	
-	//array to store frequency,volume, pan tables *16 pads (pulse width is char so will require seperate pulse table)
+	//array to store frequency,volume, pan tables *16 pads (
 	int patch[48][10] = {{1000,1500,2000,2500,3000,3500,3000,2500,2000,1500},
 						{64,64,64,64,64,64,64,64,64,64},
 						{64,64,64,64,64,64,64,64,64,64},
